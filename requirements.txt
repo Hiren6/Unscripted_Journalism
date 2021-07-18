@@ -1,0 +1,11 @@
+click==8.0.1
+decorator==4.4.2
+ffmpeg==1.4
+joblib==1.0.1
+networkx==2.5.1
+nltk==3.6.2
+numpy==1.21.0
+pydub==0.25.1
+regex==2021.7.6
+SpeechRecognition==3.8.1
+tqdm==4.61.2
