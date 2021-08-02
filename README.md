@@ -16,7 +16,7 @@ Our learning progress diaries can be seen in Learning-progress_Hiren
 ## Objective of this project:
 To take an audio(.wav file) as input and transcribe the speech in a text file(transcription.txt). Another additional feature we have added is to get summary of the transcription. The number of lines of summary the user wants is taken as input and the desired summary is written in summary.txt. Our main emphasis has been on journalism related audios and news,
 
-*NOTE: This speech to text currently works good only on US-English accent. Further fine-tuning would be required for transcribing Indian accent well.*
+*NOTE: This speech to text currently works good on clear English words. Further fine-tuning would be required for transcribing noise prone audios.*
 
 We are using extractive-summary method to obtain the summary of the transcript
 
@@ -29,8 +29,10 @@ We are using extractive-summary method to obtain the summary of the transcript
 ## Advantages
 - Speech to text automated
 - Obtain relevant text from the speech
-- Obtain any number of lines of summary 
+- Obtain any number of lines of summary
+- Transcribe long audios within reasonable amount of time 
 
 ## Drawbacks
 - Inaccuracies and redundant words being transcribed
 - Sentences not completely correct in grammatical sense
+- Inefficiency in transcribing english of varied accents
